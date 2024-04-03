@@ -1,0 +1,201 @@
+body{
+    margin: 0px;
+    border: 0px;
+}
+.nav_grid{
+    display:inline-grid;
+    grid-template-columns:0.3fr repeat(7,1fr);
+    background-color: rgb(255, 113, 113);
+    width: 100vw;
+    height: 2.2rem;
+    border: 0px;
+}
+#nav_item1{
+grid-column: 2/3;
+
+}
+#nav_item2{
+   grid-column:3/4 ;
+    }
+#nav_item3{
+    grid-column:4/5 ;
+
+    }
+#nav_item4{
+    grid-column:5/6 ;
+
+    } 
+
+#nav_item5{
+    grid-column:6/7 ;
+
+}
+#nav_item6{
+    grid-column:7/8 ;
+}
+#nav_item7{
+    grid-column:8/9 ;
+    justify-content: left;
+
+    }
+
+
+ul{
+    display: grid;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding-inline-start: 0px;
+} 
+.side{
+    justify-items: center;
+    align-items: center;
+    font-size:1.5rem;
+    font-family: "Inika", serif;
+} 
+.s{
+    height:fit-content;
+    background:linear-gradient(90deg, #fcf1a4, #ffd5cf, #ffb4ee);
+}
+#men{height: 2rem;
+
+}
+.contain1{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    height: 35rem;
+}
+.con_2{
+    display: grid;
+    grid-template-columns: 2fr 2fr 3fr;
+    grid-template-rows: 2fr 2fr;
+    width: 80vw;
+    height: auto;
+    position: relative;
+    top: 50%;
+    transform: translate(15%, -50%);
+    row-gap: 1rem;
+    column-gap: 2rem;
+
+}
+.con_1{
+    height: 100vh;
+    width: 100vw;
+}
+.con_3{
+    background-color:rgb(255, 113, 113);
+    height: 15rem ;
+    align-self: center;
+    justify-self: center;
+    position: relative;
+    top: 50%;
+    transform: translate(1%, -50%);
+}
+.con_4{
+    position: relative;
+    top: 50%;
+    transform: translate(1%, -50%);
+    padding: 1rem;
+}
+
+
+html {
+    font-size: 16px;
+  }
+  
+  
+  @media only screen and (max-width: 998px) {
+    html {
+      font-size: 55%;
+    }
+  }
+  
+  
+  @media only screen and (max-width: 768px) {
+    html {
+      font-size: 45%;
+    }
+  }
+  
+
+#a{
+    
+    
+    height: 15rem;
+    grid-column: 1/2;
+    background-image: url("pexels-rachel-claire-6752433.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+#b{
+
+    
+    height: 30rem;
+    grid-row: 1/3;
+    grid-column: 2/3;
+    background-image: url("pexels-mister-mister-3434523.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    }
+#c{
+
+    
+    height: 30rem;
+    grid-row: 1/3;
+    grid-column: 3/4;
+    
+
+    }
+#d{
+
+    
+    height: 15rem;
+    grid-column: 1/2;
+    background-image: url("pexels-eva-bronzini-6141651.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    } 
+    
+.contain1 #sec_img{
+    grid-column: 2/3;
+    max-width: 100%;
+
+}
+div .sec_1{
+    justify-items: center;
+    align-items: center;
+    margin: 3rem;
+    padding: auto;
+
+}
+#h{
+    font-family: "Reddit Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3rem;
+  word-spacing: 3px;
+  letter-spacing: 3px;
+}
+#para{
+    font-family: "Noto Serif", serif;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+#bt1{
+    background-color:rgb(255, 113, 113);
+    border: none;
+    outline: none;
+    box-shadow: none;
+    color: white;
+    width: 10rem;
+    height: 2rem;
+    padding: 10px;
+    font-size: medium;
+}
+/*Arial Black (sans-serif)
+Courier (monospace)
+Lucida Console (monospace)
+font-family: Constantia*/
